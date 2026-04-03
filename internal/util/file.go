@@ -510,6 +510,7 @@ func CopyFile(source string, destination string) error {
 			return errors.New(err)
 		}
 	}
+
 	return errors.New(copy.Copy(source, destination))
 }
 
